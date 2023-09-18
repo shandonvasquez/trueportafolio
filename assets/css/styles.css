@@ -174,7 +174,7 @@ img {
   position: fixed;
   width: 100%;
   top: 0;
-  left: 0;
+  /* left: 0; */
   background-color: var(--body-color);
   z-index: var(--z-fixed);
   transition: box-shadow 0.4s;
@@ -330,13 +330,13 @@ img {
 }
 
 .home__image {
-  width: 700px;
   background-color: transparent;
 }
 
 .home__img {
   position: relative;
   z-index: 10;
+  width: 90%;
 }
 
 .home__shadow {
@@ -833,7 +833,7 @@ img {
   display: block;
   font-size: var(--smaller-font-size);
   font-weight: var(--font-semi-bold);
-  margin-bottom: 3.5rem;
+  /* margin-bottom: 3.5rem; */
 }
 
 .nav__name {
