@@ -336,6 +336,7 @@ img {
   position: relative;
   z-index: 10;
   width: 90%;
+  background-color: transparent;
 }
 
 .home__shadow {
