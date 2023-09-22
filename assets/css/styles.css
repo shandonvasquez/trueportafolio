@@ -319,7 +319,7 @@ img {
 
 /*=============== HOME ===============*/
 .home__container {
-  padding: 2rem;
+  padding: 0;
 }
 
 .home__name {
@@ -1062,4 +1062,20 @@ body .footer .content > div .image {
   100% {
     bottom: var(--distance, 10rem);
   }
+}
+/*This is the css for waves on the top */
+body {
+  margin: 0;
+  background-color: white;
+}
+
+svg {
+  width: 100%;
+  background-color: white;
+  border-bottom: 0px solid #f5f7fa;
+}
+
+.topwaves {
+  transform: scaleY(-1);
+  border-radius: 10px;
 }
